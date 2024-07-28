@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Retro Games Online</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="navbar">
+            <div class="container nav-container">
+                <input class="checkbox" type="checkbox" name="" id="" />
+                <div class="hamburger-lines">
+                    <span class="line line1"></span>
+                    <span class="line line2"></span>
+                    <span class="line line3"></span>
+                </div>
+                <div class="logo">
+                    <h1>Retro Games Online</h1>
+                </div>
+                <div class="menu-items">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="tetris.html">Tetris</a></li>
+                    <li><a href="snake.html">Snake</a></li>
+                    <li><a href="pingpong.html">Ping Pong</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <article>
+            <br><br><br>
+            <h1 style="text-align: center;">Contact Us</h1>
+            <br>
+            <h2 style="text-align: center;">We'd love to hear from you!</h2>
+            <div class="contact-form-container">
+                <form action="submit_contact_form.php" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                    
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </article>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h2>About Us</h2>
+                <p>We bring the best of retro games online, allowing you to relive the classic arcade experience from the comfort of your home.</p>
+            </div>
+            <div class="footer-section">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="tetris.html">Tetris</a></li>
+                    <li><a href="snake.html">Snake</a></li>
+                    <li><a href="pingpong.html">Ping Pong</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h2>Follow Us</h2>
+                <div class="social-links">
+                    <a href="#"><img src="images/instagram.png" alt="Instagram"></a>
+                    <a href="#"><img src="images/telegram.png" alt="Telegram"></a>
+                    <a href="#"><img src="images/linkedin.png" alt="Linkedin"></a>
+                    <a href="#"><img src="images/github.png" alt="Github"></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h2>Contact Us</h2>
+                <p>Email: info@retrogamesonline.com</p>
+                <p>Phone: +1 (555) 123-4567</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Retro Games Online. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
